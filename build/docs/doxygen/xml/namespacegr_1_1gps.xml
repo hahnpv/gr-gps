@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1gps" kind="namespace" language="C++">
+    <compoundname>gr::gps</compoundname>
+    <innerclass refid="classgr_1_1gps_1_1acquisition" prot="public">gr::gps::acquisition</innerclass>
+    <innerclass refid="classgr_1_1gps_1_1acquisition__impl" prot="public">gr::gps::acquisition_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/hahnpv/SDR/gr-gps/include/gps/acquisition.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

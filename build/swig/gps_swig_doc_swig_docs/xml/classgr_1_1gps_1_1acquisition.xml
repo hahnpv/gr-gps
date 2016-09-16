@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1gps_1_1acquisition" kind="class" language="C++" prot="public">
+    <compoundname>gr::gps::acquisition</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="acquisition_8h" local="no">acquisition.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1gps_1_1acquisition_1a9c1a40700cc15545d07cc698af840c73" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1gps_1_1acquisition" kindref="compound">acquisition</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;acquisition&gt; gr::gps::acquisition::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/hahnpv/SDR/gr-gps/include/gps/acquisition.h" line="39" column="1" bodyfile="/home/hahnpv/SDR/gr-gps/include/gps/acquisition.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1gps_1_1acquisition_1a95b0ac4e9e1618d2d1b6b7fa23013663" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1gps_1_1acquisition_1a9c1a40700cc15545d07cc698af840c73" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::gps::acquisition::make</definition>
+        <argsstring>(int, int, int, int)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1gps_1_1acquisition" kindref="compound">gps::acquisition</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1gps_1_1acquisition" kindref="compound">gps::acquisition</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1gps_1_1acquisition_1a95b0ac4e9e1618d2d1b6b7fa23013663" kindref="member">gps::acquisition::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/hahnpv/SDR/gr-gps/include/gps/acquisition.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>gr::gps::acquisition</label>
+        <link refid="classgr_1_1gps_1_1acquisition"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::gps::acquisition</label>
+        <link refid="classgr_1_1gps_1_1acquisition"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/hahnpv/SDR/gr-gps/include/gps/acquisition.h" line="37" column="1" bodyfile="/home/hahnpv/SDR/gr-gps/include/gps/acquisition.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1gps_1_1acquisition_1a95b0ac4e9e1618d2d1b6b7fa23013663" prot="public" virt="non-virtual"><scope>gr::gps::acquisition</scope><name>make</name></member>
+      <member refid="classgr_1_1gps_1_1acquisition_1a9c1a40700cc15545d07cc698af840c73" prot="public" virt="non-virtual"><scope>gr::gps::acquisition</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

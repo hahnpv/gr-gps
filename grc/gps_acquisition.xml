@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<block>
+  <name>acquisition</name>
+  <key>gps_acquisition</key>
+  <category>[gps]</category>
+  <import>import gps</import>
+  <make>gps.acquisition($sample_rate, $IF, $freqwindow, $freqbinsize)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+<!---
+  <callback>set_sample_rate($sample_rate)</callback>
+  <callback>set_IF($IF)</callback>
+  <callback>set_search_window($freqwindow)</callback>
+  <callback>set_bin_size($freqbinsize)</callback>
+-->
+  <param>
+    <name>Sample Rate [Hz]</name>
+    <key>sample_rate</key>
+    <value>samp_rate</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Intermediate Frequency [Hz]</name>
+    <key>IF</key>
+    <value>0</value>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>Search Window [Hz]</name>
+    <key>freqwindow</key>
+    <value>20000</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Bin Size [Hz]</name>
+    <key>freqbinsize</key>
+    <value>250</value>
+    <type>int</type>
+  </param>
+
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

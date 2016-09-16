@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hahnpv/SDR/gr-gps/build/swig/_gps_swig_doc_tag.cpp
+

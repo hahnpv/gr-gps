@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1gps_1_1acquisition" kind="class"><name>gr::gps::acquisition</name>
+    <member refid="classgr_1_1gps_1_1acquisition_1a9c1a40700cc15545d07cc698af840c73" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition_1a95b0ac4e9e1618d2d1b6b7fa23013663" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1gps_1_1acquisition__impl" kind="class"><name>gr::gps::acquisition_impl</name>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1a639625baef36e961e4294116af3e9877" kind="variable"><name>_code_freq</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1a60b6dd5509a97be8d47f4ecdedaaea7b" kind="variable"><name>_code_len</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1ade299e5252371738d1123066043316d4" kind="variable"><name>_freqwindow</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1a364d80017c6fa6ed3b4d72799c9c462a" kind="variable"><name>_freqbinsize</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1aebf2f443ec3d9cc93f5e59b023ba83ba" kind="variable"><name>_samp_rate</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1acdb52e228ae1706db4e77e934f8862f3" kind="variable"><name>_IF</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1aad7ef96a867d9cb2675f53ccfbb38b14" kind="variable"><name>_finefreqsearch</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1a01af80c7f8680a4ab4120d5874b69b7a" kind="variable"><name>PRN</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1ae7cbd8e884c8a94697d9c89ebef04ef1" kind="variable"><name>fft</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1a486a7d94d78f40c7db94cfc8e6945d5e" kind="variable"><name>ifft</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1a0d50a28075f7a915553ec73113270188" kind="variable"><name>fftlong</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1a5c6bd16c74b8707a60f04ba851b6144a" kind="function"><name>acquisition_impl</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1af74d8d8a4eae811dc64364e4e06c38b3" kind="function"><name>~acquisition_impl</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1a109b780b4ab2c972a476514138b1485f" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1a09c04377f267a653d42eb33731ecc5a2" kind="function"><name>generate_prn_codes</name></member>
+    <member refid="classgr_1_1gps_1_1acquisition__impl_1a000338fa5afea93411805138ef9d0668" kind="function"><name>pcps</name></member>
+  </compound>
+  <compound refid="structgr_1_1gps_1_1acquisition__impl_1_1channel" kind="struct"><name>gr::gps::acquisition_impl::channel</name>
+    <member refid="structgr_1_1gps_1_1acquisition__impl_1_1channel_1a257064cd45207f102022834eb7612170" kind="variable"><name>prn</name></member>
+    <member refid="structgr_1_1gps_1_1acquisition__impl_1_1channel_1a63ede6b0d385ba3c31f5e986a145b7ca" kind="variable"><name>codephase</name></member>
+    <member refid="structgr_1_1gps_1_1acquisition__impl_1_1channel_1afe3ac335a7dc490b493ef13b56b65b5d" kind="variable"><name>freq</name></member>
+    <member refid="structgr_1_1gps_1_1acquisition__impl_1_1channel_1a4460f69042e366e4d7223c22fea836ec" kind="variable"><name>doppler</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1gps" kind="namespace"><name>gr::gps</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="acquisition_8h" kind="file"><name>acquisition.h</name>
+  </compound>
+  <compound refid="acquisition__impl_8h" kind="file"><name>acquisition_impl.h</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a36ff9a0162ae70972f75ed54548d5124" kind="define"><name>GPS_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_80ff9412d02b1ba43dc808a6dad6c415" kind="dir"><name>gps</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

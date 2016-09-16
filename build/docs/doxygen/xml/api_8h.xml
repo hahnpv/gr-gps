@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="acquisition_8h" local="no">acquisition.h</includedby>
+    <incdepgraph>
+      <node id="14">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="13">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="17">
+        <label>acquisition_impl.h</label>
+        <link refid="acquisition__impl_8h"/>
+      </node>
+      <node id="16">
+        <label>acquisition.h</label>
+        <link refid="acquisition_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a36ff9a0162ae70972f75ed54548d5124" prot="public" static="no">
+        <name>GPS_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/hahnpv/SDR/gr-gps/include/gps/api.h" line="30" column="12" bodyfile="/home/hahnpv/SDR/gr-gps/include/gps/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/hahnpv/SDR/gr-gps/include/gps/api.h"/>
+  </compounddef>
+</doxygen>
