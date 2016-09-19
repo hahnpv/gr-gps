@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<block>
+  <name>acquisition_sink</name>
+  <key>gps_acquisition_sink</key>
+  <category>[gps]</category>
+  <import>import gps</import>
+  <make>gps.acquisition_sink()</make>
+  <sink>
+    <name>acq</name>
+    <type>message</type>
+  </sink>
+
+</block>

@@ -22,5 +22,6 @@
 ########################################################################
 install(FILES
     api.h
-    acquisition.h DESTINATION include/gps
+    acquisition.h
+    acquisition_sink.h DESTINATION include/gps
 )

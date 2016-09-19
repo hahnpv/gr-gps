@@ -18,5 +18,6 @@
 # Boston, MA 02110-1301, USA.
 
 install(FILES
-    gps_acquisition.xml DESTINATION share/gnuradio/grc/blocks
+    gps_acquisition.xml
+    gps_acquisition_sink.xml DESTINATION share/gnuradio/grc/blocks
 )

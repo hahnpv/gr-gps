@@ -27,12 +27,14 @@
 
 #include "qa_gps.h"
 #include "qa_acquisition.h"
+#include "qa_acquisition_sink.h"
 
 CppUnit::TestSuite *
 qa_gps::suite()
 {
   CppUnit::TestSuite *s = new CppUnit::TestSuite("gps");
   s->addTest(gr::gps::qa_acquisition::suite());
+  s->addTest(gr::gps::qa_acquisition_sink::suite());
 
   return s;
 }
