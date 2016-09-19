@@ -1,2 +1,2 @@
-The acquisition block and corresponding sink can be tested by running acquisition.py.
+The acquisition block and corresponding sink can be tested by running acquisition_test.py.
 
