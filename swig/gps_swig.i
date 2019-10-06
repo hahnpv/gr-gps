@@ -10,6 +10,7 @@
 %{
 #include "gps/acquisition.h"
 #include "gps/acquisition_sink.h"
+#include "gps/track.h"
 %}
 
 
@@ -17,3 +18,6 @@
 GR_SWIG_BLOCK_MAGIC2(gps, acquisition);
 %include "gps/acquisition_sink.h"
 GR_SWIG_BLOCK_MAGIC2(gps, acquisition_sink);
+
+%include "gps/track.h"
+GR_SWIG_BLOCK_MAGIC2(gps, track);

@@ -145,7 +145,6 @@ acquisition_impl::work(int noutput_items,
         tuple = pmt::make_tuple(
             pmt::from_long(prn), 						// satellite
             pmt::from_long(codephase),						// code phase
-            pmt::from_long(binnum),						// frequency bin
             pmt::from_long(_IF - _freqwindow / 2 + binnum * _freqbinsize)); 	// frequency
         add_item_tag(0, // TODO someday if we have multiple output ports, assign
                         // to next avail port

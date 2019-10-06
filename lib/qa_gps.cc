@@ -28,6 +28,7 @@
 #include "qa_gps.h"
 #include "qa_acquisition.h"
 #include "qa_acquisition_sink.h"
+#include "qa_track.h"
 
 CppUnit::TestSuite *
 qa_gps::suite()
@@ -35,6 +36,7 @@ qa_gps::suite()
   CppUnit::TestSuite *s = new CppUnit::TestSuite("gps");
   s->addTest(gr::gps::qa_acquisition::suite());
   s->addTest(gr::gps::qa_acquisition_sink::suite());
+  s->addTest(gr::gps::qa_track::suite());
 
   return s;
 }

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<block>
+  <name>track</name>
+  <key>gps_track</key>
+  <category>[gps]</category>
+  <import>import gps</import>
+  <make>gps.track($sample_rate,$prn,$codephase,$frequency)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Sample Rate [Hz]</name>
+    <key>sample_rate</key>
+    <value>samp_rate</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>PRN</name>
+    <key>prn</key>
+    <value>0</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Codephase</name>
+    <key>codephase</key>
+    <value>0</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Frequency</name>
+    <key>frequency</key>
+    <value>0</value>
+    <type>float</type>
+  </param>
+
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>I_P</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>pseudorange</name>
+    <type>float</type>
+  </source>
+</block>

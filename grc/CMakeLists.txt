@@ -19,5 +19,7 @@
 
 install(FILES
     gps_acquisition.xml
-    gps_acquisition_sink.xml DESTINATION share/gnuradio/grc/blocks
+    gps_acquisition_sink.xml
+    gps_track.xml
+    gps_track.xml DESTINATION share/gnuradio/grc/blocks
 )

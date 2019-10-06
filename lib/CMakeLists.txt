@@ -24,11 +24,10 @@ include(GrPlatform) #define LIB_SUFFIX
 
 include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
-
 list(APPEND gps_sources
     acquisition_impl.cc
     acquisition_sink_impl.cc
-)
+    track_impl.cc )
 
 set(gps_sources "${gps_sources}" PARENT_SCOPE)
 if(NOT gps_sources)
@@ -58,10 +57,10 @@ GR_LIBRARY_FOO(gnuradio-gps RUNTIME_COMPONENT "gps_runtime" DEVEL_COMPONENT "gps
 include(GrTest)
 
 include_directories(${CPPUNIT_INCLUDE_DIRS})
-
 list(APPEND test_gps_sources
     ${CMAKE_CURRENT_SOURCE_DIR}/test_gps.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/qa_gps.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/qa_track.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/qa_acquisition_sink.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/qa_acquisition.cc
 )
