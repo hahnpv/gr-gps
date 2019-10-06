@@ -1,4 +1,2 @@
-It is considered good practice to add examples in here to demonstrate the
-functionality of your OOT module. Python scripts, GRC flow graphs or other
-code can go here.
+The acquisition block and corresponding sink can be tested by running acquisition_test.py.
 
